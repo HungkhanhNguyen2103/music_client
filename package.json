@@ -1,6 +1,7 @@
 {
   "name": "fe",
   "version": "0.1.0",
+  "homepage": "https://hungkhanhnguyen2103.github.io/music_client/",
   "private": true,
   "dependencies": {
     "@ant-design/icons": "^4.7.0",
@@ -16,6 +17,7 @@
     "antd": "^4.18.6",
     "axios": "^0.25.0",
     "build": "^0.1.4",
+    "gh-pages": "^3.2.3",
     "qs": "^6.10.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -37,7 +39,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
