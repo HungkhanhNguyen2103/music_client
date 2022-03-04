@@ -2,6 +2,7 @@
   "name": "fe",
   "version": "0.1.0",
   "homepage": "https://hungkhanhnguyen2103.github.io/music_client/",
+  "loginpage": "https://hungkhanhnguyen2103.github.io/login/",
   "private": true,
   "dependencies": {
     "@ant-design/icons": "^4.7.0",

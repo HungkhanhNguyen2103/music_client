@@ -12,7 +12,7 @@ function App() {
             
   return (
     <div className="App">
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           <Route path={ROUTES.HOME } element={<HomePage/>}></Route>
           <Route path={ROUTES.DASHBOARD } element={<HomePage/>}></Route>
@@ -24,7 +24,7 @@ function App() {
           <Route path="*" element={<ErrorPage />}></Route>
           <Route path={ROUTES.ERROR} element={<ErrorPage />}></Route>
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
