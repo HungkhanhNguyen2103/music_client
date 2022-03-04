@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+span.anticon-close-circle svg {
+  margin-bottom: 0.4rem !important;
+}
+
+span.anticon-check-circle svg {
+  margin-bottom: 0.4rem !important;
+}
+span.anticon-loading svg {
+  margin-bottom: 0.4rem !important;
+}
+
+svg.prev-style path {
+  line-height: normal;
+  font-variant-ligatures: normal;
+  font-variant-position: normal;
+  font-variant-caps: normal;
+  font-variant-numeric: normal;
+  font-variant-alternates: normal;
+  font-feature-settings: normal;
+  text-indent: 0;
+  text-align: start;
+  text-decoration-line: none;
+  text-decoration-style: solid;
+  text-decoration-color: #000;
+  text-transform: none;
+  text-orientation: mixed;
+  isolation: auto;
+  mix-blend-mode: normal;
+}
+
+iframe{
+  opacity: 0 !important;
+  cursor: pointer !important;
+}
+
+#_no-clickjacking-0{
+  opacity: 0 !important;
+}
+
+.box-music{
+  opacity: 0 !important;
+}

@@ -1,0 +1,16 @@
+@import './taiwind.css';
+:root {
+  --gray-300: #beafb6a8;
+  --gray-400 : #8B8A8D;
+  --gray-500: #91959fa1;
+  --black-200: #80808045;
+  --black-900: #1A2232;
+  --black-800: #00000085;
+  --white-100: #F2F9FB;
+  --orange-300: #f09283;
+  --white-200 : #F4F5FE;
+  --green-900: #ffff006e;
+}
+
+
+/*# sourceMappingURL=app.css.map */
